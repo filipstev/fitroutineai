@@ -1,5 +1,6 @@
 "use client";
 
+import { Button } from "@/components/ui/button";
 import { useCompletion } from "ai/react";
 
 export default function SloganGenerator() {
@@ -17,6 +18,7 @@ export default function SloganGenerator() {
         />
       </form>
       <div className="whitespace-pre-wrap my-6">{completion}</div>
+      <Button />
     </div>
   );
 }
